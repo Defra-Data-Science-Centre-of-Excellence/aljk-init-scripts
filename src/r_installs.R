@@ -86,7 +86,11 @@ install.packages(c(
   "svDialogs",
   "reactable",
   "labelled",
-  "RColorBrewer"
+  "RColorBrewer",
+  "skimr",
+  "retry",
+  "reclin2",
+  "tidytext",
 ), repos="https://cloud.r-project.org")
 # 
 devtools::install_github("ammar-gla/gglaplot") # GLA plotting functions - TO BE CHANGED INTO EA
