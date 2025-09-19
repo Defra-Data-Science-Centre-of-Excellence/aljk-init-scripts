@@ -90,3 +90,6 @@ install.packages(c(
 ), repos="https://cloud.r-project.org")
 # 
 devtools::install_github("ammar-gla/gglaplot") # GLA plotting functions - TO BE CHANGED INTO EA
+
+# install fssetup from GitHub - this is pre-installed on the Farming Stats cluster 
+devtools::install_github("Defra-Data-Science-Centre-of-Excellence/fssetup")
